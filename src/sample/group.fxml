@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Group xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" id="border">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1200.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111111" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111111" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock13" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock131" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1311" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock13111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock131111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1311111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock13111111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock131111111" fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1311111111" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1311111112" fitHeight="40.0" fitWidth="40.0" layoutX="160.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112111" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock122" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock15" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock123" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1212" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12112" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121112" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111122" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111212" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112112" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121111" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121113" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121114" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121115" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111123" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311112" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211112" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111112" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111112" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111112" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111112" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111112" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111112" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111112" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111112" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111112" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111112" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111112" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111112" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111112" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111112" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111112" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111112" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111112" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111112" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111121" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111121" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111121" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111121" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111121" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111121" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111121" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111121" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111121" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111121" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111121" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111121" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111121" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111121" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111121" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111121" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111121" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111121" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111121" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111121" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111211" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111211" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111211" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111211" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111211" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111211" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111211" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111211" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111211" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111211" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111211" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111211" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111211" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111211" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111211" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111211" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111111211" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111111211" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111111211" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111111211" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311112111" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211112111" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111112111" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111112111" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111112111" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111112111" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111112111" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111112111" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111112111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111112111" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111112111" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111112111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111112111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111121111" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111121111" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111121111" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111121111" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111121111" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111121111" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111121111" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111121111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111121111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111211111" fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111211111" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111211111" fitHeight="40.0" fitWidth="40.0" layoutX="320.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111211111" fitHeight="40.0" fitWidth="40.0" layoutX="400.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111211111" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="480.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="560.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock21111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="640.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock31111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="720.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock121111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock211111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="800.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock311111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="880.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1211111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock2111111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="960.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111111111211111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock3111111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1040.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111124" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111213" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112113" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121112" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1222" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111231" fitHeight="40.0" fitWidth="40.0" layoutX="280.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111241" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112131" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121131" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211121" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12221" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112311" fitHeight="40.0" fitWidth="40.0" layoutX="360.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112411" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121311" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211311" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112111211" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock122211" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111123111" fitHeight="40.0" fitWidth="40.0" layoutX="440.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111124111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111213111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112113111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121112111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1222111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111231111" fitHeight="40.0" fitWidth="40.0" layoutX="520.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111241111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112131111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121131111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211121111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12221111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112311111" fitHeight="40.0" fitWidth="40.0" layoutX="600.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112411111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121311111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211311111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112111211111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock122211111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111123111111" fitHeight="40.0" fitWidth="40.0" layoutX="680.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111124111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111213111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112113111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121112111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1222111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111231111111" fitHeight="40.0" fitWidth="40.0" layoutX="760.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111241111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112131111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121131111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211121111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12221111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112311111111" fitHeight="40.0" fitWidth="40.0" layoutX="840.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112411111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121311111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211311111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112111211111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock122211111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111123111111111" fitHeight="40.0" fitWidth="40.0" layoutX="920.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111124111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111213111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112113111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121112111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1222111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111231111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1000.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111241111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112131111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121131111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211121111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock12221111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112311111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112411111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111121311111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock11111211311111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock111112111211111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destroyBlock1111123111111111111" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/BorderToDestroy.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" stroke="BLACK" strokeType="INSIDE" width="1240.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#292924" />
+                  <Stop color="#999c3f" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="19.0" layoutY="7.0" prefHeight="40.0" prefWidth="121.0" text="POINTS:" textFill="#fffdfd">
+         <font>
+            <Font name="Javanese Text" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="22.0" text="00000000" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="grass" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass1" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass11" fitHeight="40.0" fitWidth="40.0" layoutX="40.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass111" fitHeight="40.0" fitWidth="40.0" layoutX="80.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass112" fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass113" fitHeight="40.0" fitWidth="40.0" layoutX="1080.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass1111" fitHeight="40.0" fitWidth="40.0" layoutX="1120.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass1121" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grass11211" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero" fitHeight="40.0" fitWidth="40.0" layoutX="1160.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Grass.png" />
+         </image>
+      </ImageView>
+   </children>
+</Group>
