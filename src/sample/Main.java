@@ -25,7 +25,7 @@ public class Main extends Application {
         Scene scene = new Scene(gp, 1240, 680, Color.BLACK);
 
         player1 = new Player(20,100,"file:coin.png");
-        //player2 = new Player(1220,660,"file:heart.png");
+        player2 = new Player(1220,660,"file:heart.png");
 
 
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
@@ -112,7 +112,7 @@ public class Main extends Application {
                 if (goA) dxx -= 1;
                 if (goD) dxx += 1;
                 player1.movePlayerBy(dx, dy);
-                //player2.movePlayerBy(dxx,dyy);
+                player2.movePlayerBy(dxx,dyy);
             }
         };
         timer.start();
@@ -121,17 +121,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-    }
-
-    public void wall(){
-        border = new Image("file:Border.png");
-        ImageView iv = new ImageView(border);
-        iv.setImage(border);
-        iv.setX(200);
-        iv.setY(200);
-        gp.getChildren().add(iv);
-        final double cx = iv.getBoundsInLocal().getWidth() /2;
-        final double cy = iv.getBoundsInLocal().getHeight() /2;
     }
 
 }
