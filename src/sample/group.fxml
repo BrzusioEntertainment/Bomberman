@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<Group xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Group xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OnePlayerController">
    <children>
       <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" id="border">
          <image>
@@ -2302,7 +2302,7 @@
             <Font name="Javanese Text" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="120.0" layoutY="22.0" text="00000000" textFill="WHITE">
+      <Label fx:id="pointsP1" layoutX="120.0" layoutY="22.0" text="0" textFill="WHITE" >
          <font>
             <Font size="23.0" />
          </font>

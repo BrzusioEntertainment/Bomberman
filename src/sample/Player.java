@@ -9,7 +9,7 @@ import javafx.scene.image.ImageView;
 public class Player {
 
     private Image player;
-    private Node hero;
+    public Node hero;
     private static final double W =1240, H = 680;
 
 
@@ -48,7 +48,6 @@ public class Player {
             hero.relocate(x-cx,y-cy);
         }
         if(OnePlayerController.checkCollision(hero) && (hero.getLayoutX() -cx != xRevert || hero.getLayoutY() - cy != yRevert)) {
-            System.out.println("revert");
             hero.relocate(xRevert + cx, yRevert +cy );
         }
     }
