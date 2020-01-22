@@ -3,7 +3,6 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 public class Controller {
@@ -23,7 +22,8 @@ public class Controller {
         }
         else{
             stage = (Stage) player2.getScene().getWindow();
-//            root = FXMLLoader.load(getClass().getResource("mapaMarek.fxml"));
+            TwoPlayerController twoPlayerController = new TwoPlayerController();
+            twoPlayerController.loadForTwoPlayers(stage);
         }
 
     }

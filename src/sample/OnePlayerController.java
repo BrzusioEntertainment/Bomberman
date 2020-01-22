@@ -22,10 +22,7 @@ public class OnePlayerController{
 
     public static Group gp;
     private boolean goUP, goDOWN, goLEFT, goRIGHT, space;
-    public static boolean canPut = true;
-    public static boolean isBomb;
-    public static Set<ImageView> borders = new HashSet<>();
-    public static Set<ImageView> bordersToDestroy = new HashSet<>();
+    private Bomb bombP1 = new Bomb();
     public static Label pointsP1;
 
     public void loadForOnePlayer(Stage stage) throws IOException {
@@ -34,8 +31,6 @@ public class OnePlayerController{
         Scene scene = new Scene(gp, 1240, 680, Color.BLACK);
 
         Player player1 = new Player(60, 620, "/sample/resources/heroGame.png", gp);
-        getAllBorders(gp);
-        getAllBordersToDestroy(gp);
         getPointsInstance(gp);
 
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
@@ -96,7 +91,7 @@ public class OnePlayerController{
                 if (goDOWN) dy += 1;
                 if (goLEFT) dx -= 1;
                 if (goRIGHT) dx += 1;
-                if (space && canPut) Bomb.putBomb(gp, borders, player1.hero);
+                if (space && MapElements.canPutP1) bombP1.putBomb(gp, player1.hero);
                 player1.movePlayerBy(dx, dy);
 
 
@@ -104,40 +99,6 @@ public class OnePlayerController{
         };
 
         timer.start();
-    }
-
-    public static boolean checkCollision(Node hero) {
-        for(ImageView images : borders){
-            if(hero.getBoundsInParent().intersects(images.getBoundsInParent())){
-                return true;
-            }
-        }
-        try {
-            for(ImageView images : bordersToDestroy){
-                if(hero.getBoundsInParent().intersects(images.getBoundsInParent())){
-                    return true;
-                }
-            }
-        } catch (ConcurrentModificationException e){
-            System.out.println("Exception");
-        }
-        return false;
-    }
-
-    public void getAllBorders(Group gp){
-        for (Node child : gp.getChildren()) {
-        if(child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("Border.png")){
-            borders.add((ImageView) child);
-        }
-    }
-    }
-
-    public static void getAllBordersToDestroy(Group gp){
-        for (Node child : gp.getChildren()) {
-            if(child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("BorderToDestroy.png")){
-                bordersToDestroy.add((ImageView) child);
-            }
-        }
     }
 
     public void getPointsInstance(Group gp){

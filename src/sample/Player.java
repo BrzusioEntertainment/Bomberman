@@ -11,11 +11,13 @@ public class Player {
     private Image player;
     public Node hero;
     private static final double W =1240, H = 680;
+    private MapElements mapElements;
 
 
     public Player(int x, int y, String location, Group gp){
         player = new Image(location);
         hero = new ImageView(player);
+        mapElements = new MapElements(gp);
         gp.getChildren().add(hero);
         movePlayerTo(x,y);
     }
@@ -43,11 +45,11 @@ public class Player {
                 x + cx <= W - 40 &&
                 y - cy >= 120 &&
                 y + cy <= H - 40 &&
-                !OnePlayerController.checkCollision(hero)) {
+                !mapElements.checkCollision(hero)) {
 
             hero.relocate(x-cx,y-cy);
         }
-        if(OnePlayerController.checkCollision(hero) && (hero.getLayoutX() -cx != xRevert || hero.getLayoutY() - cy != yRevert)) {
+        if(mapElements.checkCollision(hero) && (hero.getLayoutX() -cx != xRevert || hero.getLayoutY() - cy != yRevert)) {
             hero.relocate(xRevert + cx, yRevert +cy );
         }
     }

@@ -14,34 +14,65 @@ import java.util.TimerTask;
 
 public class Bomb {
 
-    private static Timer timerExplode = new Timer();
-    private static Timer timerCleaner = new Timer();
+    private Timer timerExplodeP1 = new Timer();
+    private Timer timerCleanerP1 = new Timer();
+    private Timer timerExplodeP2 = new Timer();
+    private Timer timerCleanerP2 = new Timer();
     public static Set<ImageView> grass = new HashSet<>();
 
-    public static void putBomb(Group gp, Set<ImageView> borders, Node hero){
-        Image bombImg = new Image("bombP1.png");
-        Node bomb = new ImageView(bombImg);
+    public void putBomb(Group gp, Node hero){
+        String bombUrl;
+        if(isHeroOne(hero)) {
+            bombUrl = "bombP1.png";
+        }
+        else {
+            bombUrl = "bombP2.png";
+        }
+
+        Image bombImg = new Image(bombUrl);
         getAllGrass(gp);
-        OnePlayerController.canPut = false;
-        if(!isBombOnMap(gp)) {
-            checkCollisionAndPutBomb(hero, bombImg);
-            timerExplode.schedule(new TimerTask() {
-                @Override
-                public void run() {
-                    explode();
-                }
-            }, 2000);
-            timerCleaner.schedule(new TimerTask() {
-                @Override
-                public void run() {
-                    cleanAfterExplosion(gp);
-                }
-            }, 2500);
-            OnePlayerController.pointsP1.setText(String.valueOf(Integer.parseInt(OnePlayerController.pointsP1.getText()) + 10));
+        if(isHeroOne(hero)) {
+            MapElements.canPutP1 = false;
+        }
+        else {
+            MapElements.canPutP2 = false;
+        }
+        if(!isBombOnMap(gp, hero)) {
+            if(isHeroOne(hero)) {
+                checkCollisionAndPutBomb(hero, bombImg);
+                timerExplodeP1.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        explode(hero);
+                    }
+                }, 2000);
+                timerCleanerP1.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        cleanAfterExplosion(gp, hero);
+                    }
+                }, 2500);
+            }
+            else {
+                checkCollisionAndPutBomb(hero, bombImg);
+                timerExplodeP2.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        explode(hero);
+                    }
+                }, 2000);
+                timerCleanerP2.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        cleanAfterExplosion(gp, hero);
+                    }
+                }, 2500);
+            }
+
         }
      }
 
-    private static void getAllGrass(Group gp) {
+    private void getAllGrass(Group gp) {
         for (Node child : gp.getChildren()) {
             if (child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("Grass.png")) {
                 grass.add((ImageView) child);
@@ -49,35 +80,43 @@ public class Bomb {
         }
     }
 
-    private static boolean isBombOnMap(Group gp) {
-        for (Node child : gp.getChildren()) {
-            if (child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("bombP1.png")) {
-                return true;
+    private boolean isBombOnMap(Group gp, Node hero) {
+        if(isHeroOne(hero)) {
+            for (Node child : gp.getChildren()) {
+                if (child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("bombP1.png")) {
+                    return true;
+                }
             }
         }
+        else {
+            for (Node child : gp.getChildren()) {
+                if (child instanceof ImageView && ((ImageView) child).getImage().getUrl().contains("bombP2.png")) {
+                    return true;
+                }
+            }
+        }
+
         return false;
     }
 
-    private static void checkCollisionAndPutBomb(Node hero, Image bomb) {
+    private void checkCollisionAndPutBomb(Node hero, Image bomb) {
         for(ImageView images : grass){
             if(hero.getBoundsInParent().intersects(images.getBoundsInParent())){
                 images.setImage(bomb);
-                OnePlayerController.isBomb = true;
+                if(isHeroOne(hero)) {
+                    MapElements.isBombP1 = true;
+                }
+                else {
+                    MapElements.isBombP2 = true;
+                }
                 break;
             }
         }
     }
 
-//    private static void destroyByBomb(ImageView bomb, Image fire) {
-//        for(ImageView images : OnePlayerController.bordersToDestroy){
-//            if(images.getBoundsInParent().intersects(bomb.getBoundsInParent())){
-//                images.setImage(fire);
-//            }
-//        }
-//    }
 
-    private static void destroyByBomb(ImageView bomb, Image fire) {
-        for(Node images : OnePlayerController.gp.getChildren()){
+    private void destroyByBomb(ImageView bomb, Image fire) {
+        for(Node images : MapElements.gp.getChildren()){
             if(((images.getLayoutY() == bomb.getLayoutY() && images.getLayoutX() == bomb.getLayoutX() + 40) ||
                     (images.getLayoutY() == bomb.getLayoutY() && images.getLayoutX() == bomb.getLayoutX() - 40) ||
                     (images.getLayoutX() == bomb.getLayoutX() && images.getLayoutY() == bomb.getLayoutY() + 40) ||
@@ -88,20 +127,32 @@ public class Bomb {
         }
     }
 
-    public static void explode() {
+    public void explode(Node hero) {
         Image fire = new Image("/sample/resources/fire.png");
-        for (ImageView images : grass) {
-            if (images.getImage().getUrl().contains("bombP1.png")) {
+
+            if(isHeroOne(hero)) {
+                for (ImageView images : grass) {
+                    if (images.getImage().getUrl().contains("bombP1.png")) {
                         destroyByBomb(images, fire);
                         images.setImage(fire);
-                        timerExplode.purge();
+                        timerExplodeP1.purge();
+                    }
+                }
+            }
+            else {
+                for (ImageView images : grass) {
+                    if (images.getImage().getUrl().contains("bombP2.png")) {
+                        destroyByBomb(images, fire);
+                        images.setImage(fire);
+                        timerExplodeP2.purge();
+                    }
+                }
             }
         }
-    }
 
-    public static void cleanAfterExplosion(Group gp){
+    public void cleanAfterExplosion(Group gp, Node hero){
         Image grass = new Image("/sample/resources/Grass.png");
-        for(ImageView images : OnePlayerController.bordersToDestroy){
+        for(ImageView images : MapElements.bordersToDestroy){
             if(images.getImage().getUrl().contains("fire.png")){
                 images.setImage(grass);
             }
@@ -111,10 +162,23 @@ public class Bomb {
                 images.setImage(grass);
             }
         }
-        OnePlayerController.bordersToDestroy.clear();
-        OnePlayerController.getAllBordersToDestroy(gp);
+        MapElements.bordersToDestroy.clear();
+        MapElements.getAllBordersToDestroy();
         Bomb.grass.clear();
         getAllGrass(gp);
-        OnePlayerController.canPut = true;
+        if(isHeroOne(hero)) {
+            MapElements.canPutP1 = true;
+        }
+        else {
+            MapElements.canPutP2 = true;
+        }
+    }
+
+    private boolean isHeroOne(Node hero){
+        return ((ImageView) hero).getImage().getUrl().contains("heroGame.png");
+    }
+
+    private boolean isHeroTwo(Node hero){
+        return ((ImageView) hero).getImage().getUrl().contains("heroGame2.png");
     }
 }
