@@ -127,6 +127,11 @@ public class TwoPlayerController {
                 if (enter && MapElements.canPutP2) bombP2.putBomb(gp, player2.hero);
                 if (space && MapElements.canPutP1) bombP1.putBomb(gp, player1.hero);
 
+                if (MapElements.endGame){
+                    MapElements mapElements = new MapElements(gp);
+                    mapElements.endGame();
+                }
+
                 player1.movePlayerBy(dxx, dyy);
                 player2.movePlayerBy(dx,dy);
             }

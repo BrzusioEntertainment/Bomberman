@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Node;
@@ -65,6 +66,9 @@ public class MapElements {
 
     public void endGame() {
         try {
+            Thread.sleep(1000);
+            Bomb bomb = new Bomb();
+            bomb.endThreads();
             Stage stage = (Stage) MapElements.gp.getScene().getWindow();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/sample/endGame.fxml"));
             Group gp = fxmlLoader.load();
@@ -73,8 +77,6 @@ public class MapElements {
             stage.show();
         }catch (Exception e){
             System.out.println("KONIEC :)");
-            Bomb bomb = new Bomb();
-            bomb.endThreads();
         }
     }
 }

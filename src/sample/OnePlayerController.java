@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
@@ -92,6 +93,10 @@ public class OnePlayerController{
                 if (goLEFT) dx -= 1;
                 if (goRIGHT) dx += 1;
                 if (space && MapElements.canPutP1) bombP1.putBomb(gp, player1.hero);
+                if (MapElements.endGame){
+                    MapElements mapElements = new MapElements(gp);
+                    mapElements.endGame();
+                }
                 player1.movePlayerBy(dx, dy);
 
 

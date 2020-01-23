@@ -1,9 +1,7 @@
 package sample;
 
-import javafx.application.Platform;
 import javafx.scene.Group;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
@@ -22,14 +20,6 @@ public class Bomb {
     public Set<ImageView> grass = new HashSet<>();
 
     public void putBomb(Group gp, Node hero) {
-        if (MapElements.endGame){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Koniec Gry");
-            alert.setContentText("Gracz się spalił :(");
-//            Platform.exit();
-            MapElements mapElements = new MapElements(gp);
-            mapElements.endGame();
-        }
         String bombUrl;
         if(isHeroOne(hero)) {
             bombUrl = "bombP1.png";
@@ -127,6 +117,7 @@ public class Bomb {
 
 
     private void destroyByBomb(ImageView bomb, Image fire, Node hero) throws IOException {
+        Set<ImageView> burned = new HashSet<>();
         for(Node images : MapElements.gp.getChildren()){
             if(((images.getLayoutY() == bomb.getLayoutY() && images.getLayoutX() == bomb.getLayoutX() + 40) ||
                     (images.getLayoutY() == bomb.getLayoutY() && images.getLayoutX() == bomb.getLayoutX() - 40) ||
@@ -135,9 +126,13 @@ public class Bomb {
                     !((ImageView)images).getImage().getUrl().contains("Border.png")){
 
                 ((ImageView)images).setImage(fire);
-                if(images.getBoundsInParent().intersects(hero.getBoundsInParent())){
-                    MapElements.endGame = true;
-                }
+                burned.add((ImageView)images);
+            }
+        }
+        for(ImageView burn : burned){
+            if(burn.getBoundsInParent().intersects(hero.getBoundsInParent())){
+                MapElements.endGame = true;
+                break;
             }
         }
     }

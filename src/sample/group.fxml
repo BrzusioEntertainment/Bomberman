@@ -2297,12 +2297,12 @@
             </RadialGradient>
          </fill>
       </Rectangle>
-      <Label layoutX="19.0" layoutY="7.0" prefHeight="40.0" prefWidth="121.0" text="POINTS:" textFill="#fffdfd">
+      <Label layoutX="19.0" layoutY="7.0" prefHeight="40.0" prefWidth="121.0" text="POINTS:" textFill="#fffdfd" visible="false">
          <font>
             <Font name="Javanese Text" size="23.0" />
          </font>
       </Label>
-      <Label fx:id="pointsP1" layoutX="120.0" layoutY="22.0" text="0" textFill="WHITE" >
+      <Label fx:id="pointsP1" layoutX="120.0" layoutY="22.0" text="0" textFill="WHITE" visible="false">
          <font>
             <Font size="23.0" />
          </font>
