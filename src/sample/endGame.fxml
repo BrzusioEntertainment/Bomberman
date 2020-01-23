@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Group xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#693a52" height="773.0" stroke="BLACK" strokeType="INSIDE" width="1562.0" />
+      <Label alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" prefHeight="215.0" prefWidth="1207.0" text="                      Koniec Gry!" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" layoutX="489.0" layoutY="215.0" nodeOrientation="RIGHT_TO_LEFT" text="Gracz został wysadzony :(" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="63.0" />
+         </font>
+      </Label>
+   </children>
+</Group>

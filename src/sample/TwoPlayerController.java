@@ -33,9 +33,7 @@ public class TwoPlayerController {
 
         Player player1 = new Player(60, 620, "/sample/resources/heroGame.png", gp);
         Player player2 = new Player(1180, 620, "sample/resources/heroGame2.png", gp);
-//        MapElements.getAllBorders();
-//        MapElements.getAllBordersToDestroy();
-//        getPointsInstance(gp);
+        getPointsInstance(gp);
 
 
         scene.setOnKeyPressed(event -> {
@@ -136,5 +134,12 @@ public class TwoPlayerController {
         timer.start();
     }
 
+    public void getPointsInstance(Group gp){
+        for (Node child : gp.getChildren()) {
+            if(child instanceof Label && ((Label) child).getText().equals("0")){
+                child.setVisible(false);
+            }
+        }
+    }
 
 }
